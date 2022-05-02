@@ -16,7 +16,7 @@ public class HumanLogic {
         String var1 = "Long";
         String var2 = "Mid";
         String var3 = "Short";
-        String var4 = "Cancer";
+        String var4 = "Bold";
         String var5 = "Undercut";
         System.out.println(var1 + "\n" + var2 + "\n" + var3 + "\n" + var4 + "\n" + var5);
         String choose = in.next();
@@ -28,7 +28,7 @@ public class HumanLogic {
         } else if (choose == var3 || choose == var4) {
             System.out.println("Youre have a dummy type of hair, AHHAHAAHHAHAHAHAH");
             if (choose == var5) {
-                System.out.println("Youre a stupid fucking cunt");
+                System.out.println("Are you kidding me??????????");
             }
         }
         System.out.println("The hairtype of your " + name + " " + " is " + choose + " " + " "+ "with " + hairColor + " colored hair");
